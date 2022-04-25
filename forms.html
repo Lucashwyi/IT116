@@ -94,7 +94,7 @@
     <!--  -->
         <p> 
             <label for="colors">What is Your Favorite Color?</label>
-            <!--A select element that includes the color attribute-->
+            <!--A select element that includes the color and value attribute to create a drop down-->
             <select name="colors" id="colors">
                 <option value="red">Red</option>
 
@@ -105,7 +105,20 @@
             </select>
 
         </p>
+        <!--A label element with type attribute to create a scrollbar -->
+        <p>
+            <label for="sbar">Lucas's Scrollbar</label>
 
+            <input type="range" id="sbar" min="5" max="10" name="scrollbar">
+        </p>
+        <!--A label element with textarea attribute to create a text box -->
+        <p>
+            <label for="request">Type in Speical Requests</label>
+            <textarea id="request" name="textarea" rows="15" cols="15" placeholder="Type Here"></textarea>
+
+
+
+        </p>
         <button>Submit</button>
     </form>
 </section>
