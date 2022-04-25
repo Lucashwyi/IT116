@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <!--This is a header for the form that includes username and password-->
+        <h1>Please Fill out the form Below</h1>
+        <!--This is a form that includes attributes-->
+        <form action="/foods">
+        <!--This paragraph is for the username with an input that adds a placeholder which describes the expected value of the input element-->
+            <p>
+                <label for="Username">Username:</label>
+                <input id="username" type="text" minlength="10" maxlength="14" placeholder="Username" name="Username">
+            </p>
+        <!--This paragraph is for the password with an input that adds a placeholder which describes the expected value of the input element-->
+            <p>
+                <label for="Password">Password</label>
+                <input id="Password" type="text" minlength="10" maxlength="14" placeholder="Password" name="Password">
+            </p>
+            <p>
+                <label for="Foods">Which food would you like to eat?</label>
+            <!--A select element that includes the food and value attribute to create a drop down-->
+                <select name="Foods" id="Foods">
+                    <option value="rock">Rocks</option>
+
+                    <option value="Grass">Grass</option>
+
+                    <option value="Pinecone">Pinecones</option>
+                </select>
+            </p>
+            <!--A label element with textarea attribute to create a text box for customers allegies -->
+            <p>
+                <label for="request">Do you have any food allergies?</label>
+
+                <textarea id="request" name="textarea" rows="3" cols="10" placeholder="Type Here"></textarea>
+            </p>
+                <button>Send</button>
+        </form>
+    </section>
+</body>
+</html>
