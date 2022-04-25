@@ -26,6 +26,8 @@
             <button>Submit Button</button>
     </form>
 </section>
+<!--Cutting off the section-->
+<hr>
     <!--A section element that includes a Reddit search button-->
     <section>
     <!--This includes a header for Query String for Reddit-->
@@ -62,7 +64,8 @@
 
             </form>
 </section>
-
+<!--Cutting off the section-->
+<hr>
     <!--This is a section that holds a form with a radio element-->
 
 <section>
@@ -114,11 +117,33 @@
         <!--A label element with textarea attribute to create a text box -->
         <p>
             <label for="request">Type in Speical Requests</label>
-            
+
             <textarea id="request" name="textarea" rows="15" cols="15" placeholder="Type Here"></textarea>
         </p>
         <button>Submit</button>
     </form>
 </section>
+<!--Cutting off the section-->
+<hr>
+<!--This is a section that includes text box elements, required boolean attributes, minlength and maxlength attributes, email type, and button attribute-->
+    <section>
+        <p>
+            <form action="/monkey">
+                <!--This is a text box element that includes a required boolean attribute -->
+                <label for="lucas">Text box</label>
+                <input type="text" name="textbox" id="lucas" placeholder="Username" required>
+
+                <!--This is a password text box element that includes a minlength and maxlength for the minimum and maximum characters in the text box-->
+                <label for="password"></label>
+                <input type="text" name="pword" id="password" minlength="10" maxlength="14" placeholder="Password">
+        </p>
+        <!--Input element that has a required boolean attribute for an email-->
+        <p>
+            <input type="email" required>
+            <button type="submit">Validation Button</button>
+        </p>
+        </form>
+    </section>
+
 </body>
 </html>
