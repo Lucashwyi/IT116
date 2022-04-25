@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
-
 <body>
+    <section>
     <!--This is a header for the form that includes username and password-->
     <h1>First Form</h1>
+    <!--This is a form that includes attributes-->
     <form action="/Lucas">
     <!--This paragraph is for the username with an input that adds a placeholder which describes the expected value of the input element-->
         <p>
@@ -21,8 +22,92 @@
             <label for="Password">Enter a Password:</label>
             <input id="Password" type="text" placeholder="LucasPassword" name="Password">
         </p>
-
+    <!--This is a button element that uses the data and send it to the web service-->
+            <button>Submit Button</button>
     </form>
-    
+</section>
+    <!--A section element that includes a Reddit search button-->
+    <section>
+    <!--This includes a header for Query String for Reddit-->
+        <h1>Query Strings</h1>
+        
+    <!--Form element that includes the reddit link to search query-->
+            <form action="https://www.reddit.com/search/">
+
+    <!--This is an input attribute that is a placeholder to search something-->
+                <input type="text" name="q">
+
+    <!--This is a button element that uses the data to send it to the web service-->
+                    <button>Search Reddit</button>
+
+            </form>
+    <!--This includes a form element that includes the youtube link to search query-->
+            <form action="https://www.youtube.com/results?search_query=">
+
+    <!--This is an input Attribute that is a placeholder to search something-->
+                <input type="text" name="q">
+
+    <!--This is a button element that uses the data to send it to the web service-->
+                    <button>Search Youtube</button>
+
+            </form>
+    <!--This is a form element that includes the google link to search query-->
+            <form action="https://www.google.com/search?q=">
+
+    <!--This is an input attribute thati s a placeholder to search something-->
+                <input type="text" name="q">
+
+    <!--This is a button element that uses the data to send ti to the web service-->
+                    <button>Search Google</button>
+
+            </form>
+</section>
+
+    <!--This is a section that holds a form with a radio element-->
+
+<section>
+    <!--This is a header for checkbox and radio button-->
+    <h1>Checkbox and Radio button</h1>
+
+        <form action="/birds">
+
+    <!--This includes an input element that shows a checkbox with an ID attribute-->
+            <input type="Checkbox" name="Agree_tos" id="agree">
+
+            <label for="Agree">I agree to everything</label>
+
+        <p>
+    <!--This includes a label element-->
+        <label for="s">Small:</label>
+
+            <input type="radio" name="size" id="s" value="s">
+
+            <label for="m">Medium:</label>
+
+            <input type="radio" name="size" id="m" value="m">
+
+            <label for="l">Large:</label>
+
+            <input type="radio" name="size" id="l" value="l">
+
+        </p>
+    <!--  -->
+        <p> 
+            <label for="colors">What is Your Favorite Color?</label>
+            <!--A select element that includes the color attribute-->
+            <select name="colors" id="colors">
+                <option value="red">Red</option>
+
+                <option value="blue">Blue</option>
+
+                <option value="green">Green</option>
+
+            </select>
+
+        </p>
+
+        <button>Submit</button>
+    </form>
+</section>
 </body>
 </html>
