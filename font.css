@@ -1,0 +1,47 @@
+h1 {
+    color:darkblue;
+    text-align:center;
+    font-weight: 200px;
+    font-size: 125px;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+h2 {
+    color: forestgreen;
+    text-align: left;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h3 {
+    color:forestgreen;
+    text-decoration: underline;
+    text-align: left;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h4 {
+    color:forestgreen;
+    text-align: left;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color:salmon;
+    line-height: 1.5;
+    letter-spacing: 0.2ex;
+    text-align: left;
+    font-weight: 100px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
