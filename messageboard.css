@@ -1,0 +1,46 @@
+/*This is a universal selector */
+/* *{
+    background-color: rgb(233, 250, 255);
+} */
+
+/*This is a body selector with a background color  */
+
+body{
+    background-color: rgb(199, 217, 255);
+
+}
+/*This is a button selector with font size  */
+button{
+    
+    font-size: 30px;
+
+}
+
+/*This is a h1, h2 selector */
+h1,h2{
+    color:brown;
+}
+
+/* */
+#signup{
+    background-color: orange;
+    color:white;
+}
+
+#login{
+    background-color: pink;
+    color:white;
+}
+
+#vote{
+    background-color: orangered;
+    color:white;
+}
+
+.tag{
+    color: red;
+}
+
+.water{
+    color:aliceblue;
+}
