@@ -1,0 +1,46 @@
+/*Using an id selector that targets an element and changing the color */
+#agree {
+   background-color:green;
+   color:white;
+}
+
+#disagree {
+    background-color: red;
+    color: white;
+}
+
+#sea {
+    color:crimson;
+}
+
+#seas {
+    color:green;
+}
+
+#hawk {
+    color:yellowgreen
+}
+
+#hawks {
+    color:red;
+}
+
+#seattle {
+    color:crimson;
+}
+
+#seahawks {
+    color:red;
+}
+
+#seahawk {
+    color:yellowgreen;
+}
+
+#seattleseahawks {
+    color: green;
+}
+
+#patriots {
+    color:red;
+}
