@@ -1,0 +1,14 @@
+/*This is a css page for sports.html*/
+/*This selects the <a> tag in the header element section*/
+header > a{
+    color:pink;
+    font-size:30px;
+}
+/*This is a class selector that selects all the <a> tags */ 
+.post a {
+    color:red;
+}
+/*This is an identifier tag that selects all <a> tags */
+#school a {
+    color:purple
+}
