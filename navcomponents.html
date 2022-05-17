@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Component</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!--This is a navigation element that has a div tag with an unordered list-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+
+                <a class="navbar-brand" href="https://www.twitch.tv/">
+                    <img src="https://blog.twitch.tv/assets/uploads/hchp-blog-header-1306x700.jpg"
+                    alt="" width="40" height="25" class="d-incline-block align-text-top">
+                    Twitch
+                </a>
+                <!--This is to create a hamburger menu with a navbar toggle collapse-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <!--This is a unordered list that is in the navbar that has a nested list with anchor tags-->
+                    <ul class="navbar-nav d-flex me-auto">
+                        <li class="nav-item active">    
+                            <a class="nav-link" href="http://www.youtube.com">YouTube</a>
+                        </li class="nav-item active">
+                            <a class="nav-link" href="http://tiktok.com">TikTok</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="http://mixer.com">Mixer</a>
+                        </li>
+                        <!--This is drop down that displays list of links and more in the navbar-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
+                                <ul class="dropdown-menu">
+                                    <a href="http://www.youtube.com/pokimane" class="dropdown-item">Pokimane Youtube</a>
+                                    <a href="http://www.youtube.com/sykkuno" class="dropdown-item">Sykkuno Youtube</a>
+                                    <a href="http://www.youtube.com/valkyrae1" class="dropdown-item">Valkyrae Youtube</a> 
+                                    <a href="http://www.youtube.com/disguisedtoast" class="dropdown-item">DisguisedToast Youtube</a>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" action="/testing">
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+    </nav>    
+    
+    <br>
+    <br>
+    <!--Section to keep it organized-->
+    <!--Created a div class that is a container card-->
+    <section>
+        <!--Container card to see the line-->
+        <div class="container card">
+            <!--<h1>Boostrap Components</h1>-->
+                <h1>Bootstrap Components Without Class</h1>
+                <!--This is a class that has a typography from the library-->
+                <h1 class="display-1 text-center text-primary">Components with bootstrap class</h1> 
+                <p class="text-primary">Hello</p>
+                <!--This is three button elements with classes that has different colors-->
+                <button type="button" class="btn btn-success">Green</button>
+                <button type="button" class="btn btn-warning">Yellow</button>
+                <button type="button" class="btn btn-danger">Red</button>
+                <!--This is a button element with class that outlines the button-->
+                <button type="button" class="btn btn-outline-info">Info</button>
+        
+     <br>
+     <hr>
+     <br>   
+                <!--This is a h2 class with display-4 text size -->
+                <h2 class="display-4">Some paragraph text</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus architecto suscipit quidem! 
+                    Officiis impedit eaque sapiente tenetur veniam sed blanditiis optio! Recusandae, quisquam. 
+                    Quasi necessitatibus adipisci assumenda magni ea.
+                </p>
+
+    <br>
+    <hr>
+    <br>
+                <!--This is an h3 class with a display-4 text size-->
+                <h3 class="display-4">Group of Header Buttons</h3>
+                    <div class="btn-group">
+                            <button class="btn btn-danger">One</button>
+                            <button class="btn btn-danger">Two</button>
+                            <button class="btn btn-danger">Three</button>
+                    </div>
+    <br>
+    <hr>
+    <br>
+                <!--Inserted an image with blockquote text-->
+                <img src="https://media.sproutsocial.com/uploads/2020/09/Insights_Blog_TwitchMarketing-01.jpg">
+                <blockquote class="blockquote text-left bg-light">
+                    <p class="mb-2">"This is a quote, Lucas is a Twitch nerd."
+                    </p>
+                    <footer class="blockquote-footer">Something Something</footer>
+
+                </blockquote>
+
+
+            </div>
+
+
+    </section>
+
+    
+    
+</body>
+</html>
